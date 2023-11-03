@@ -30,12 +30,3 @@ inner_nav_btns.forEach((item) => {
     nav.style.transform = "translateX(-100%)";
   });
 });
-
-modeBtn.addEventListener("click", function () {
-  if (document.body.className != "light") {
-    this.firstElementChild.src = "images/dark.svg";
-  } else {
-    this.firstElementChild.src = "images/light.svg";
-  }
-  document.body.classList.toggle("light");
-});
