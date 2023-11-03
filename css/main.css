@@ -24,7 +24,7 @@
 }
 
 .our-p {
-    width: 426px;
+    max-width: 426px;
     color: #555;
     text-align: center;
     font-family: Orbitron;
@@ -48,6 +48,17 @@
         justify-content: space-between;
         gap: 20px;
 
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .our-sponsors {
+        height: 1000px;
+    }
+
+    .sponsors img {
+        margin-left: 80px;
     }
 
 }
