@@ -31,8 +31,6 @@ inner_nav_btns.forEach((item) => {
   });
 });
 
-let modeBtn = document.getElementById("mode-btn");
-
 modeBtn.addEventListener("click", function () {
   if (document.body.className != "light") {
     this.firstElementChild.src = "images/dark.svg";
