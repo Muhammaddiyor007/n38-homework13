@@ -388,8 +388,8 @@
     }
 
     .right {
-        width: 100%;
-        margin-left: 1px;
+        width: 150%;
+        margin-left: -100px;
 
     }
 
