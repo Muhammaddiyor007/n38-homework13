@@ -1,12 +1,12 @@
 let modeBtn = document.getElementById("mode-btn");
 
 modeBtn.addEventListener("click", function () {
-    if (document.body.className != "light") {
-        this.firstElementChild.src = "images/dark.svg";
-    } else {
-        this.firstElementChild.src = "images/light.svg";
-    }
-    document.body.classList.toggle("light");
+  if (document.body.className != "light") {
+    this.firstElementChild.src = "images/dark.svg";
+  } else {
+    this.firstElementChild.src = "images/light.svg";
+  }
+  document.body.classList.toggle("light");
 });
 const close_btn = document.querySelector(".close-btn");
 const open_btn = document.querySelector(".open-btn");
