@@ -221,7 +221,6 @@
 
 .black-feir {
     display: flex;
-    max-width: 300px;
     height: 25px;
 
 
@@ -277,6 +276,7 @@
 
 }
 
+
 .chap button a {
     width: 135px;
     color: #FFF;
@@ -287,13 +287,6 @@
     line-height: 28px;
     /* 155.556% */
     text-transform: capitalize;
-}
-
-.container-black {
-    max-width: 1320px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
 }
 
 .ong {
@@ -320,13 +313,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #000;
-}
-
-.container-cards {
-    max-width: 1320px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
 }
 
 .card1 {
@@ -364,7 +350,6 @@
     justify-content: center;
     background: url(../images/card2.png), lightgray 50% / cover no-repeat;
 }
-
 
 .card3 {
     width: 480px;
