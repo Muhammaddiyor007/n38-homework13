@@ -112,6 +112,7 @@
 }
 
 .top-left {
+    width: 100%;
     max-width: 642.458px;
     height: 212px;
     flex-shrink: 0;
