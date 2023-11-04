@@ -289,8 +289,15 @@
     text-transform: capitalize;
 }
 
+.container-black {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
 .ong {
-    width: 392px;
+    width: 492px;
     height: 550px;
     opacity: 0.5;
     margin-top: 85px;
