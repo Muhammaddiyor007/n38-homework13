@@ -350,6 +350,13 @@
     background: url(../images/card2.png), lightgray 50% / cover no-repeat;
 }
 
+.container {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid white;
+}
+
 .card3 {
     width: 480px;
     height: 732px;
